@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    background-image:url('/images/bgimg_starry.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.slide-container {
+    width: 100%;
+    height: 600px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.margin-added{
+    margin-left: 12rem;
+}
+
+.container {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* border-radius: 10px; */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 257px;
+    border-radius: 10px;
+}
+/* .container a:hover{
+    box-shadow: 0 0 10px #dc83ee;
+} */
