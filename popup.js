@@ -45,5 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (error) {
         console.error('Error:', error);
         document.getElementById('result').innerText = 'Error generating text';
-    }
+    }
   }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const youtubePlayer = document.getElementById('youtube-player');
+    const videoId = '4y33h81phKU'; // Replace with the actual YouTube video ID
+    const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+
+    youtubePlayer.src = embedUrl;
+});
