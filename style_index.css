@@ -26,7 +26,7 @@
   
   .row {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     gap: 10px; /* Space between columns */
     column-gap: 10px;
   }
@@ -36,7 +36,7 @@
     padding-left: 0;
   }
   .row1 {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2.7fr 1.8fr 1.9fr;
   }
   .row2{
       grid-template-columns: 2fr 1fr;
@@ -47,10 +47,14 @@
   .row3 {
     grid-template-columns: 2fr 1fr 1fr;
   }
+  .row1> .column{
+    height: 300px;
+  }
   .column1 {
     background: -webkit-linear-gradient(#425152, #54726c);
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    height: 300px;
     position: relative;
     overflow: hidden; /* Ensures no overflow */
     display: flex; /* Centers the iframe within the container */
@@ -66,6 +70,8 @@
   }
   .column2 {
     background: -webkit-linear-gradient(#5c837e, #b1d9d4);
+    overflow: hidden;
+    padding-left: 0;
   }
   .column5 {
     background: -webkit-linear-gradient(#425152, #54726c);
@@ -107,11 +113,11 @@
   .pomodoro-timer {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 30px 20px ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #8e8e8e;
     text-align: center;
-    width: 257px;
+    /* width: 257px; */
     background: -webkit-linear-gradient(#252128, #4e5e5f);
   }
   .pomodoro-timer button {
@@ -120,6 +126,8 @@
     border: none;
     margin: 4px;
     color: #201f26;
+    height: 2rem;
+    margin-top: 20px;
   }
   
   
@@ -145,8 +153,8 @@
       width: 750px;
   }
   .spotify{
-      scale: 0.978;
-      width: 281px;
+      width: 330px;
+      height: 400px;
       display: flex;
   }
   
@@ -155,7 +163,7 @@
   .gemini {
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 35px 20px 20px 20px;
     /* background: -webkit-linear-gradient(#252128,#4e5e5f); */
     background: -webkit-linear-gradient(#5c837e, #b1d9d4);
   }
