@@ -18,4 +18,5 @@ Welcome to the repository for **Hyperverge-Dashboard** Chrome extension! This ex
    git clone https://github.com/vaidik07/Hyperverge-Dashboard.git
    cd Hyperverge-Dashboard
 
-
+## Basic UI
+<img width="1469" alt="Screenshot 2024-08-03 at 8 20 54 PM" src="https://github.com/user-attachments/assets/03af828d-4d90-40a3-bf95-624a4dd95132">
